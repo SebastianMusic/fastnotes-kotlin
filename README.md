@@ -4,6 +4,3 @@
 3. velg å kjøre prosjektet som en compose app
 4. forsikre deg at du har en telefon koblet til maskinen din
 5. kjør programmet ved å trykke på den grønne knappen
-
-
-

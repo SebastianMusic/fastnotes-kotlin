@@ -116,7 +116,6 @@ fun NoteCard(note: NoteModel, navController: NavHostController) {
             onClick = { navController.navigate(ViewNoteScreen(note.title, note.body)) }) {
             Column(modifier = Modifier.padding(16.dp).fillMaxWidth(0.8f)) {
                 Text(note.title, style = TextStyle(fontSize = 30.sp))
-                Text(note.body, style = TextStyle(fontSize = 16.sp))
             }
         }
         Spacer(modifier = Modifier.height(16.dp))
